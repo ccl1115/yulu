@@ -4,6 +4,11 @@ auto_deploy: false
 admin_path: admin
 webhook_url: 
 sections:
+- type: directory
+  path: movies
+  label: Movies
+  create: all
+  match: "**/*"
 - type: heading
   label: About
 upload_dir: uploads

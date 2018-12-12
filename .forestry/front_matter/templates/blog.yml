@@ -1,0 +1,13 @@
+---
+label: Blog
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: title
+  label: Title
+- type: textarea
+  name: content
+  label: Content
+pages:
+- movies/mr-lonely.md
