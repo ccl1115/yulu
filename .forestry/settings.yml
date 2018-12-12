@@ -4,6 +4,11 @@ auto_deploy: false
 admin_path: admin
 webhook_url: 
 sections:
+- type: directory
+  path: movies
+  label: Movies
+  create: all
+  match: "**/*"
 - type: heading
   label: About
 upload_dir: uploads
@@ -13,4 +18,4 @@ use_front_matter_path: false
 file_template: ":filename:"
 build:
   preview_command: npm run forestry:preview
-  output_directory: .vuepress/dist
+  output_directory: ".vuepress/dist"
