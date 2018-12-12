@@ -12,5 +12,12 @@ front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
 build:
-  preview_command: npm run forestry:preview
-  output_directory: .vuepress/dist
+  preview_command: hugo -E -F -D -d public
+  publish_command: hugo -d public
+  output_directory: public
+  preview_env:
+  - HUGO_ENV=staging
+  - HUGO_VERSION=#{self.site_settings.engine_version || '0.17'}
+  publish_env:
+  - HUGO_ENV=production
+  - HUGO_VERSION=#{self.site_settings.engine_version || '0.17'}
