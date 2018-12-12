@@ -1,0 +1,23 @@
+{
+  "name": "yulu",
+  "version": "1.0.0",
+  "description": "Self intro",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "forestry:preview": "vuepress build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccl1115/yulu.git"
+  },
+  "author": "ccl1115@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ccl1115/yulu/issues"
+  },
+  "homepage": "https://github.com/ccl1115/yulu#readme",
+  "dependencies": {
+    "vuepress": "^0.14.8"
+  }
+}
