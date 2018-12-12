@@ -9,3 +9,5 @@ fields:
 - type: textarea
   name: content
   label: Content
+pages:
+- movies/mr-lonely.md
