@@ -17,13 +17,13 @@ disableKinds = ["taxonomy", "taxonomyTerm"] # This theme does not currently use 
   logoSmall = "/images/osprey-logo.png"
   favicon = "favicon.ico"
   opengraphImage = "/images/osprey.png"
-  email = ""
+  email = "ccl1115@gmail.com"
   googleTagManager = ""
   customCSS = false
 
   # Social media links in footer
-  twitter = "ccl1115"
-  linkedin = "ccl1115"
+  twitter = ""
+  linkedin = "yu-lu-679b1420"
   github = "ccl1115"
   facebook = ""
 
@@ -32,8 +32,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"] # This theme does not currently use 
   credit = false
 
   # Cache busting of static resources (additional set up required)
-  cacheBustCSS = true
-  cacheBustJS = true
+  cacheBustCSS = false
+  cacheBustJS = false
 
   # Code highlighting with highlight.js
   highlightJS = true
@@ -47,53 +47,13 @@ disableKinds = ["taxonomy", "taxonomyTerm"] # This theme does not currently use 
 
 [[menu.main]]
   name = "About"
-  url  = "/#about"
+  url  = "/about"
   weight = 1
 [[menu.main]]
   name = "Work"
-  url  = "/#work"
+  url  = "/work"
   weight = 2
 [[menu.main]]
   name = "Blog"
-  url  = "/#blog"
+  url  = "/blog"
   weight = 3
-[[menu.main]]
-  name = "Contact"
-  url  = "/#contact"
-  weight = 4~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-"config.toml" 3L, 82C
