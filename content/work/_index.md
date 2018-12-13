@@ -1,6 +1,5 @@
 ---
 title: Work
-type: "blog"
 layout: "single"
 ---
 ## Current
