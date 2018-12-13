@@ -1,5 +1,5 @@
 title = "Yulu Self Intro"
-baseURL = "https://ccl1115.github.io/yulu"
+baseURL = "https://ccl1115.github.io/"
 tags = ["portfolio", "programming", "blog"]
 languageCode = "en-US"
 config = "config.toml"
